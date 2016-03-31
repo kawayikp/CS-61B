@@ -1,7 +1,5 @@
 /* Fraction.java */
 
-import java.io.*;
-
 /** The Fraction class implements nonnegative fractions (rational numbers).
  */
 class Fraction {
