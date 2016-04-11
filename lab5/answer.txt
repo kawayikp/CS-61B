@@ -108,5 +108,11 @@ prototype in its superclass.
      out a way to call the superclass method on that object without having to
      go through the subclass method of the same name?
      *********************************************
-     I'm not sure whether I got the meaning, but I can. If a method in superclass is static and overriden in subclass, let me suppose that I have a subclass object, which method will be invoked depends on the reference variable. If a superclass variable references the subclass object and invoke the static method, the superclass static method will be invoked, whereas if a subclass variable references the subclass object, the subclass static method will be invoked.
-     I'm not sure the whether it's correct to define "override a static method", and if so, could I explian that "there isn't polimorphism in static method"?
+     I'm not sure whether I got the meaning, but I can. If a method in superclass is static 
+     and overriden in subclass, let me suppose that I have a subclass object, which method 
+     will be invoked depends on the reference variable. If a superclass variable references 
+     the subclass object and invoke the static method, the superclass static method will be 
+     invoked, whereas if a subclass variable references the subclass object, the subclass 
+     static method will be invoked.
+     I'm not sure the whether it's correct to define "override a static method", and if so, 
+     could I explian that "there isn't polimorphism in static method"?
