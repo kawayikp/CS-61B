@@ -1,12 +1,1 @@
-Part 2 of the assignment asks you to find which parts of the DList have weakness against hostile or badly written code. The main culprit is: a DListNode node, when passed as a parameter to some of the methods, may not even be part of this Dlist instance.
-
-It would be tring to create a DListNode not even in the DList and call
-insertAfter(), insertBefore(), prev(), next(), remove();
-This will corrupt the size field;
-Also the whole list
-============================================================
-How to resolve?
-From this website
-(http://gotfu.wordpress.com/2012/01/23/berkeley-cs61b-homework-4/)
-One way would be add an extra field in DListNode to record which list this node
-belongs to
+In Encapsulation class, the professor sum up the drawback of the code, I’m lazy to sum up them again:)
